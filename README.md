@@ -8,29 +8,45 @@ A fully responsive, multi-page website for a luxury yacht rental service. This w
 
 ---
 
-## 🚀 My Role & Contribution
+## 🚀 Key Features
 
-As a member of the development team, I was responsible for:
-*   Developing key reusable components, including the site-wide footer.
-*   Implementing the responsive design for my components to ensure a perfect look on all devices.
-*   Collaborating with the team using Git and GitHub, participating in code reviews and merges.
-
----
-
-## ✨ Key Project Features
-
-*   **Multi-Page Structure:** Includes pages for "About," "Yachts," and "Reviews."
-*   **Interactive Slider:** A dynamic slider on the main page to showcase yachts.
-*   **Responsive Design:** Flawless display across mobile, tablet, and desktop screens.
+*   **Modular Multi-Page Architecture:** Built from reusable HTML partials (header, footer, sections), demonstrating a component-based approach to development.
+*   **Interactive Yacht Slider:** A dynamic, touch-friendly slider (Slick Carousel) on the main page.
+*   **Fully Responsive Design:** Flawless display across mobile, tablet, and desktop screens.
 *   **Smooth Animations & Transitions:** CSS animations enhance user interaction and provide a premium feel.
-*   **Modal Windows:** Used for various interactive elements like forms and reviews.
+*   **Functional Modal Windows:** Used for various interactive elements like forms and reviews.
 
 ---
 
-## 🛠️ Tech Stack Used
+## 🛠️ Tech Stack
 
 *   HTML5
 *   CSS3 / SASS
-*   JavaScript
-*   Vite (as a build tool)
-*   Git & GitHub (for version control and collaboration)
+*   JavaScript (ES6 Modules)
+*   **Vite** (as a frontend build tool)
+*   **Slick Carousel** (for the slider component)
+*   **Git & GitHub** (for version control and collaboration)
+
+---
+
+## 🏃 Getting Started
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/plyampus/best-project-group-2.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd best-project-group-2
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+This will open the project in your default browser.
